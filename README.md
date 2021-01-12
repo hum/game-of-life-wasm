@@ -20,8 +20,10 @@ An implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 
 ### Run
 ```bash
-(In project directory)
+(If you want to build your own wasm binary)
 > wasm-pack build --dev
+...
+(In project directory)
 > cd www
 > npm install
 > npm run start
